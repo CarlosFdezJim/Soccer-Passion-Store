@@ -1,0 +1,125 @@
+/* Fuentes y tipos de letra */
+body {
+  font-family: Arial, sans-serif; /* Fuente principal */
+}
+
+h1, h2, h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente de los encabezados */
+}
+
+/* Fondo de la página */
+.App {
+  background-color: #f5f5f5; /* Color de fondo para todo el sitio */
+}
+
+header {
+  background-color: #f5f5f5; /* Color de fondo del encabezado */
+  color: #2e2b2b; /* Color del texto en el encabezado */
+  padding: 20px; /* Añade espacio alrededor del contenido del encabezado */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 80px;
+  height: auto;
+}
+
+.tienda h1 {
+  margin: 0;
+  margin: 10px; /* Añade margen alrededor del título de la tienda */
+  color: #413e3e; /* Color del texto en el nombre de la tienda */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+footer {
+  margin-top: 50px;
+  background-color: #27ae60; /* Color de fondo del pie de página */
+  color: #FFFFFF; /* Color del texto en el pie de página */
+  padding: 20px 0;
+}
+
+/* Color de la fuente */
+header, footer {
+  color: #333333; /* Color del texto en el encabezado y el pie de página */
+}
+
+.producto h3 {
+  color: #333333; /* Color del texto en los nombres de productos */
+}
+
+nav ul li a {
+  color: #333333; /* Color del texto en los enlaces del menú de navegación */
+  text-decoration: none;
+}
+
+.productos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.producto {
+  width: calc(25% - 20px); /* Ancho del producto, con un espacio de 10px en cada lado */
+  margin: 10px; /* Espacio entre productos */
+  display: inline-block; /* Para que los productos se muestren en línea */
+  vertical-align: top; /* Alinea los productos en la parte superior */
+  box-sizing: border-box; /* Incluye el borde y el relleno en el cálculo del ancho */
+}
+
+.producto img {
+  max-width: 100%;
+}
+
+.banner {
+  background-color: #f39c12; /* Color de fondo del banner */
+  color: #FFFFFF; /* Color del texto en el banner */
+  padding: 40px;
+  height: calc(100vh - 140px); /* Altura del banner: 100% de la altura de la ventana menos la altura del encabezado y del pie de página */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Oculta cualquier contenido que se salga del banner */
+}
+
+.banner-content {
+  text-align: center;
+}
+
+.puntos-navegacion {
+  margin-top: 20px; /* Espacio entre el contenido del banner y los puntos de navegación */
+  /* Estilos para los puntos de navegación */
+}
+
+
+.banner h2 {
+  margin-top: 0;
+}
+
+/******************** Diseño del scroll ********************/
+::-webkit-scrollbar {
+  width: 10px; /* Ancho del scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5); /* Color transparente del scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent; /* Hace el fondo del scrollbar transparente */
+}
+
+/******************** Diseño del scroll ********************/

@@ -1,0 +1,10 @@
+.banner {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .banner img {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+  }

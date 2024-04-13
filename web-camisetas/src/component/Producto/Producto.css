@@ -1,0 +1,7 @@
+.producto {
+  width: calc(25% - 20px); /* Ancho del producto, con un espacio de 10px en cada lado */
+  margin: 10px; /* Espacio entre productos */
+}
+  
+  /* Agrega más estilos según sea necesario */
+  

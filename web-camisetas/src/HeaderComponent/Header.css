@@ -1,0 +1,10 @@
+/* Estilos para el header */
+header {
+    position: fixed; /* Fija el header en la parte superior */
+    top: 0; /* Coloca el header en la parte superior de la ventana */
+    width: 100%; /* Establece el ancho del header al 100% del viewport */
+    z-index: 1000; /* Asegura que el header esté por encima de otros elementos */
+    background-color: #ffffff; /* Fondo blanco para el header */
+    /* Agrega otros estilos según sea necesario */
+  }
+  
