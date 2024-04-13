@@ -4,7 +4,7 @@ import { Modal, Button } from 'react-bootstrap';
 function ModalCarrito({ mostrar, cerrarModal, carrito }) {
 
     // Función para agrupar los productos por ID y contar la cantidad
-    const productosAgrupados = carrito.reduce((acumulador, producto) => {
+   /* const productosAgrupados = carrito.reduce((acumulador, producto) => {
         // Verifica si ya existe un producto con el mismo ID en el acumulador
         const productoExistente = acumulador.find(item => item.id === producto.id);
         if (productoExistente) {
@@ -15,7 +15,7 @@ function ModalCarrito({ mostrar, cerrarModal, carrito }) {
         acumulador.push({ ...producto, cantidad: 1 });
         }
         return acumulador;
-    }, []);
+    }, []);*/
 
     return (
         <Modal show={mostrar} onHide={cerrarModal}>
