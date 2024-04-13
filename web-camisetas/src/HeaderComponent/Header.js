@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import imagenlogo from './AssetsLogo/logo.png';
 
 function Header({ abrirModalCarrito }) {
 
@@ -11,7 +12,7 @@ function Header({ abrirModalCarrito }) {
   return (
     <header>
       <div className="logo">
-        <img src="https://via.placeholder.com/80" alt="Logo" />
+        <img src={imagenlogo} alt="Logo" />
       </div>
       <div className="tienda">
         <h1>Soccer Passion Store</h1>
