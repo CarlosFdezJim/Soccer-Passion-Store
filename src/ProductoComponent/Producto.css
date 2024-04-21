@@ -3,5 +3,7 @@
   margin: 10px; /* Espacio entre productos */
 }
   
-  /* Agrega más estilos según sea necesario */
-  
+.producto .card-img-top {
+  width: 100%; /* Ancho del 100% para la imagen dentro de la tarjeta */
+  height: auto; /* Altura automática para mantener la relación de aspecto */
+}

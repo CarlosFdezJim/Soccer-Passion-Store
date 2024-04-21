@@ -4,6 +4,7 @@
     width: 45%; /* Ancho del producto */
     margin: 10px; /* Espacio entre productos */
     display: inline-block; /* Para que los productos se muestren en línea */
+    margin: 0 5rem;
   }
   
   @media (max-width: 768px) {

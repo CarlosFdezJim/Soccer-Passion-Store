@@ -15,7 +15,7 @@ function Header({ abrirModalCarrito }) {
     };
     const scrollToProductos = (event) => {
       event.preventDefault(); // Evita el comportamiento predeterminado del enlace
-      const productosSection = document.getElementById('productos');
+      const productosSection = document.getElementById('listadoproductos');
       productosSection.scrollIntoView({ behavior: 'smooth' }); // Desplazamiento suave
     };
     const scrollToContacto = (event) => {
@@ -37,7 +37,7 @@ function Header({ abrirModalCarrito }) {
         <nav>
           <ul>
           <li><a href="#inicio" onClick={scrollToInicio}>Inicio</a></li>
-            <li><a href="#productos" onClick={scrollToProductos}>Productos</a></li>
+            <li><a href="#listadoproductos" onClick={scrollToProductos}>Productos</a></li>
             <li><a href="#contacto" onClick={scrollToContacto}>Contacto</a></li>
             <li><a href="#" onClick={handleClick}>Carrito</a></li>
           </ul>

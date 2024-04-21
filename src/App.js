@@ -16,7 +16,7 @@ import Footer from './FooterComponent/Footer';
 import imagenProducto1 from './assets/producto1.jpg'; // Importa la imagen del producto 1
 import imagenProducto2 from './assets/producto2.jpg'; // Importa la imagen del producto 2
 
-/*import imagenProducto3 from './assets/CamisetaFutbolClubBarcelona1992.jpg'; // Importa la imagen del producto 1
+import imagenProducto3 from './assets/CamisetaFutbolClubBarcelona1992.jpg'; // Importa la imagen del producto 1
 import imagenProducto4 from './assets/CamisetaInterDeMilan1999.jpg'; // Importa la imagen del producto 2
 import imagenProducto5 from './assets/CamisetaJuventus95-96.jpg'; // Importa la imagen del producto 1
 import imagenProducto6 from './assets/CamisetaMilan1988.jpg'; // Importa la imagen del producto 2
@@ -26,7 +26,7 @@ import imagenProducto9 from './assets/CamisetaSelecciónFrancesa1998.jpg'; // Im
 import imagenProducto10 from './assets/CamisetaSeleccionHolandesa1988.jpg'; // Importa la imagen del producto 2
 import imagenProducto11 from './assets/CamisetaSeleccionItaliana2002.jpg'; // Importa la imagen del producto 1
 import imagenProducto12 from './assets/SegundaEquipacionSeleccionEspañola 2010.jpg'; // Importa la imagen del producto 2
-import imagenProducto13 from './assets/CamisetaDeportivoDeLaCoruna92-93.png'; // Importa la imagen del producto 1*/
+import imagenProducto13 from './assets/CamisetaDeportivoDeLaCoruna92-93.png'; // Importa la imagen del producto 1
 
 
 function App() {
@@ -44,7 +44,7 @@ function App() {
 
   // Array de productos
   const productos = [
-    { id: 1, nombre: 'Camiseta 1', precio: 20, imagen: imagenProducto1 },
+    /*{ id: 1, nombre: 'Camiseta 1', precio: 20, imagen: imagenProducto1 },
     { id: 2, nombre: 'Camiseta 2', precio: 25, imagen: imagenProducto2 },
     { id: 3, nombre: 'Camiseta 3', precio: 22, imagen: imagenProducto1 },
     { id: 4, nombre: 'Camiseta 4', precio: 18, imagen: imagenProducto2 },
@@ -53,10 +53,10 @@ function App() {
     { id: 7, nombre: 'Camiseta 7', precio: 24, imagen: imagenProducto1 },
     { id: 8, nombre: 'Camiseta 8', precio: 26, imagen: imagenProducto2 },
     { id: 9, nombre: 'Camiseta 9', precio: 21, imagen: imagenProducto1 },
-    { id: 10, nombre: 'Camiseta 10', precio: 32, imagen: imagenProducto2 },
+    { id: 10, nombre: 'Camiseta 10', precio: 32, imagen: imagenProducto2 },*/
     
     // Agrega más productos aquí según sea necesario
-     /*    
+         
     { id: 1, nombre: 'Camiseta 1', precio: 20, imagen: imagenProducto1 },
     { id: 2, nombre: 'Camiseta 2', precio: 25, imagen: imagenProducto2 },
     { id: 3, nombre: 'Camiseta 3', precio: 22, imagen: imagenProducto3 },
@@ -70,7 +70,7 @@ function App() {
     { id: 9, nombre: 'Camiseta 9', precio: 21, imagen: imagenProducto11 },
     { id: 10, nombre: 'Camiseta 10', precio: 32, imagen: imagenProducto12 },
     { id: 9, nombre: 'Camiseta 9', precio: 21, imagen: imagenProducto13 }
-    */
+    
   ];
 
   const agregarAlCarrito = (idProducto) => {
