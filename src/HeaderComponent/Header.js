@@ -5,9 +5,25 @@ import imagenlogo from './AssetsLogo/logo.png';
 function Header({ abrirModalCarrito }) {
 
     const handleClick = (event) => {
-        event.preventDefault(); // Evita que el enlace cambie de página
-        abrirModalCarrito(); // Llama a la función abrirModalCarrito
-        };
+      event.preventDefault(); // Evita que el enlace cambie de página
+      abrirModalCarrito(); // Llama a la función abrirModalCarrito
+    };
+    const scrollToInicio = (event) => {
+      event.preventDefault(); // Evita el comportamiento predeterminado del enlace
+      const inicioSection = document.getElementById('inicio');
+      inicioSection.scrollIntoView({ behavior: 'smooth' }); // Desplazamiento suave
+    };
+    const scrollToProductos = (event) => {
+      event.preventDefault(); // Evita el comportamiento predeterminado del enlace
+      const productosSection = document.getElementById('productos');
+      productosSection.scrollIntoView({ behavior: 'smooth' }); // Desplazamiento suave
+    };
+    const scrollToContacto = (event) => {
+      event.preventDefault(); // Evita el comportamiento predeterminado del enlace
+      const contactoSection = document.getElementById('contacto');
+      contactoSection.scrollIntoView({ behavior: 'smooth' }); // Desplazamiento suave
+    };
+    
         
   return (
     <header>
@@ -20,9 +36,9 @@ function Header({ abrirModalCarrito }) {
       <div className="header-right">
         <nav>
           <ul>
-            <li><a href="/">Inicio</a></li>
-            <li><a href="#">Productos</a></li>
-            <li><a href="#">Contacto</a></li>
+          <li><a href="#inicio" onClick={scrollToInicio}>Inicio</a></li>
+            <li><a href="#productos" onClick={scrollToProductos}>Productos</a></li>
+            <li><a href="#contacto" onClick={scrollToContacto}>Contacto</a></li>
             <li><a href="#" onClick={handleClick}>Carrito</a></li>
           </ul>
         </nav>

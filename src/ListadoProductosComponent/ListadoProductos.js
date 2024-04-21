@@ -10,7 +10,7 @@ function ListadoProductos({ productos, onAgregarAlCarrito }) {
   };
 
   return (
-    <div className="productos-container">
+    <div className="productos-container" id="productos">
       <h2>Listado de Productos</h2>
       <div className="productos">
         {productos.map(producto => (

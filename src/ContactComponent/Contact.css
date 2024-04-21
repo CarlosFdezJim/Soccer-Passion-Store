@@ -1,0 +1,108 @@
+.contact-form input, .contact-form textarea {
+	border: none;
+	border-bottom: 1px solid #1c1c1c;
+	border-radius: 0;
+	padding: 10px 10px 10px 0;
+	margin-bottom: 20px;
+	font-size: 14px;
+	width:100%;
+}
+.section-padding {
+	padding: 60px 0px;
+}
+.section-title {
+	padding-bottom: 40px;
+}
+
+.section-title p {
+	width: 100%;
+}
+.section-title h3 {
+	margin-bottom: 12px;
+}
+.section-title-line {
+	background: #ececec;
+	content: "";
+	height: 1px;
+	position: absolute;
+	left: calc(50% - 87px);
+	width: 175px;
+}
+.section-title-line:after {
+	background: #ab2f52;
+	bottom: -1px;
+	content: "";
+	height: 2px;
+	left: calc(50% - 22px);
+	position: absolute;
+	width: 45px;
+}
+.info-box {
+	position:relative;
+	padding-bottom:30px;
+}
+.info-box .icon {
+	display:inline-block;
+	width: 30px;
+}
+.info-box .icon i {
+	font-size: 20px;
+	color: #ab2f52;
+}
+.info-box .content {
+	display:inline-block;
+	margin-left:10px;
+}
+.info-box .content h4 {
+	font-size: 20px;
+}
+
+.info-box {
+	position:relative;
+	padding-bottom:30px;
+}
+.info-box .icon {
+	display:inline-block;
+	width: 30px;
+}
+.info-box .icon i {
+	font-size: 20px;
+	color: #ab2f52;
+}
+.info-box .content {
+	display:inline-block;
+	margin-left:10px;
+}
+.info-box .content h4 {
+	font-size: 20px;
+}
+.contact-form input, .contact-form textarea {
+	border: none;
+	border-bottom: 1px solid #1c1c1c;
+	border-radius: 0;
+	padding: 10px 10px 10px 0;
+	margin-bottom: 20px;
+	font-size: 14px;
+	width:100%;
+}
+
+.app-container {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+  }
+  
+  .header-container {
+	height: 20%;
+	background-color: #f0f0f0;
+  }
+  
+  .banner-container {
+	height: 80%;
+  }
+  
+  /* Ajusta estos valores según sea necesario para el banner */
+  .banner {
+	width: 80%;
+	margin: auto;
+  }

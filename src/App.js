@@ -9,13 +9,14 @@ import ListadoProductos from './ListadoProductosComponent/ListadoProductos';
 import Banner from './BannerComponent/Banner';
 import Carrito from './CarritoComponent/Carrito';
 import ModalCarrito  from './ModalCarrito/ModalCarrito';
+import Contact from './ContactComponent/Contact';
 import Footer from './FooterComponent/Footer';
 
 
 import imagenProducto1 from './assets/producto1.jpg'; // Importa la imagen del producto 1
 import imagenProducto2 from './assets/producto2.jpg'; // Importa la imagen del producto 2
 
-import imagenProducto3 from './assets/CamisetaFutbolClubBarcelona1992.jpg'; // Importa la imagen del producto 1
+/*import imagenProducto3 from './assets/CamisetaFutbolClubBarcelona1992.jpg'; // Importa la imagen del producto 1
 import imagenProducto4 from './assets/CamisetaInterDeMilan1999.jpg'; // Importa la imagen del producto 2
 import imagenProducto5 from './assets/CamisetaJuventus95-96.jpg'; // Importa la imagen del producto 1
 import imagenProducto6 from './assets/CamisetaMilan1988.jpg'; // Importa la imagen del producto 2
@@ -25,7 +26,7 @@ import imagenProducto9 from './assets/CamisetaSelecciónFrancesa1998.jpg'; // Im
 import imagenProducto10 from './assets/CamisetaSeleccionHolandesa1988.jpg'; // Importa la imagen del producto 2
 import imagenProducto11 from './assets/CamisetaSeleccionItaliana2002.jpg'; // Importa la imagen del producto 1
 import imagenProducto12 from './assets/SegundaEquipacionSeleccionEspañola 2010.jpg'; // Importa la imagen del producto 2
-import imagenProducto13 from './assets/CamisetaDeportivoDeLaCoruna92-93.png'; // Importa la imagen del producto 1
+import imagenProducto13 from './assets/CamisetaDeportivoDeLaCoruna92-93.png'; // Importa la imagen del producto 1*/
 
 
 function App() {
@@ -100,6 +101,7 @@ function App() {
           <ListadoProductos productos={productos} onAgregarAlCarrito={agregarAlCarrito} />
         </section>
       </main>
+      <Contact />
       <Footer />
     </div>
   );
